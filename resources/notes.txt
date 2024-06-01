@@ -10,8 +10,11 @@ const container ->
     - shold wrap items in container
     - flex stretch
     - shouldnt allow overflow
+    - remove container and create a new one every time container is cleared
 
 const input ->
     - min value is one
     - max value is 100
     - disable functionailty once 100 items are reached
+    - will use a if else statement to check for amount of items
+    - shoudlnt allow string values
