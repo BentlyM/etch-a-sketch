@@ -1,0 +1,24 @@
+
+
+- current issues: overflow once a certain amount of items are input;
+- possible issues: the reassigning after every click may cause problems with the logic (trying to find a way to record input values)
+    - 
+    -
+    -
+- solved issues: 
+
+
+const container ->
+    - should be display type flex
+    - shold wrap items in container
+    - flex stretch
+    - shouldnt allow overflow
+    - remove container and create a new one every time container is cleared
+
+const input ->
+    - min value is one
+    - max value is 100
+    - disable functionailty once 100 items are reached
+    - will use a if else statement to check for amount of items
+    - shoud'nt allow string values
+    -
