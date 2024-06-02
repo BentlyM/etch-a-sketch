@@ -1,11 +1,11 @@
 
 
 - current issues: overflow once a certain amount of items are input;
-- possible issues: the reassigning after every click may cause problems with the logic (trying to find a way to record input values)
+- possible issues: 
+    - the container seems to be responsive could cause issues in regards to its items
     - 
     -
-    -
-- solved issues: 
+- solved issues:  the ressignment issue cause logic problems seems fixed
 
 
 const container ->
@@ -20,5 +20,31 @@ const input ->
     - max value is 100
     - disable functionailty once 100 items are reached
     - will use a if else statement to check for amount of items
-    - shoud'nt allow string values
-    -
+    - shoud'nt allow string values or symbols
+    - should add up when a number is inputted
+    - add button for functionailty
+
+const items -> 
+    - should stretch to fit container
+    - should take up a even amount of space in refernece to other items
+    - on hover color should be altered 
+    - item should shrink indefinitly
+
+const clear ->
+    - basically restarts the program when cleared
+
+ extra ->
+-- within the body add others compants such as the label , input, and btn;
+
+how would you incorporate the first constant?
+    - create a physical div in the html (parent node)
+    - include fragment for better functionailty -- (dont understand this much yet)
+    - in css incorporate the proper styling such as flex , flex direction, height , width, and overflow(possibly?!)
+    - in javascript assign a variable to the container using the dom
+
+what will the first constant be used for?
+    - appending the children to the dom
+    - giving the items a parent node to be placed in
+    - gives the web page some structure
+
+
