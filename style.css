@@ -17,9 +17,10 @@ body {
 }
 
 .grid-item {
-    padding: 1%;
+    padding: 5px;
     border: 1px solid black;
     text-align: center;
+    
 }
 
 #rows {
