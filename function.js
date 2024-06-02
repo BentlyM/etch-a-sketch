@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const container = document.querySelector('#container'); // wraps rows
 const rows = document.getElementById('rows'); // value
 const btn = document.querySelector('#btn'); // adds rows
@@ -9,18 +8,6 @@ clear.textContent = 'Clear'; // assigns inner text to the value
 
 btn.addEventListener('click', () => {
     const row = parseInt(rows.value, 10);
-=======
-const container = document.querySelector('#container');
-const rows = document.getElementById('rows'); 
-const btn = document.querySelector('#btn'); 
-const clear = document.createElement('button');  
-let sum = 0;
-
-clear.textContent = 'Clear';
-
-btn.addEventListener('click', () => {
-    const row = +rows.value;
->>>>>>> EAS-FUNC
     if (isNaN(row) || row <= 0) return;
 
     if (sum + row > 100 || container.children.length + row > 100) {
