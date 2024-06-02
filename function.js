@@ -50,12 +50,6 @@ document.body.appendChild(clear).className = 'clear';
 
 clear.addEventListener('click', () => {
     container.innerHTML = ''; 
-<<<<<<< HEAD
     sum = 0;
     rows.value = '';
-});
-=======
-    sum = 0; 
-    rows.value = '';
-});
->>>>>>> EAS-FUNC
+}); 
