@@ -20,9 +20,10 @@ body {
 
 .grid-item {
     display: inline-block;
-    border-width: 0 1px 1px 0;
+    /*border-width: 0 1px 1px 0;
     border-color: black;
     border-style: solid;
+    */
     height: 10%;
     width: 10%;
     box-sizing: border-box;

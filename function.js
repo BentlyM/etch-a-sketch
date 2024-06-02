@@ -28,10 +28,16 @@ const gridLayout = (rows) => {
     for (let i = 0; i < rows; i++) {
         const itemCard = document.createElement('div');
         itemCard.className = 'grid-item';
+        itemCard.addEventListener('mouseover', () => {
+            itemCard.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        });
         fragment.appendChild(itemCard);
     }
     container.appendChild(fragment);
 };
+
+
+
 
 document.body.appendChild(clear).className = 'clear';
 
