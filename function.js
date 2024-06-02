@@ -2,7 +2,7 @@ const container = document.querySelector('#container'); // wraps rows
 const rows = document.getElementById('rows'); // value
 const btn = document.querySelector('#btn'); // adds rows
 const clear = document.createElement('button'); // clears   items in the container
-const items = document.getElementsByClassName('grid-item'); // row cards (the actual items)
+const items = document.getElementsByClassName('grid-item'); // row cards (the actual items) (this is for the hovering feature probably maybe others)
 let sum = 0;
 clear.textContent = 'Clear'; // assigns inner text to the value
 
@@ -24,7 +24,6 @@ btn.addEventListener('click' , () => {
 });
 
 const gridLayout = (rows) => {
-
 };
 
 document.body.appendChild(clear).className = 'clear';

@@ -17,4 +17,5 @@ const input ->
     - max value is 100
     - disable functionailty once 100 items are reached
     - will use a if else statement to check for amount of items
-    - shoudlnt allow string values
+    - shoud'nt allow string values
+    -
