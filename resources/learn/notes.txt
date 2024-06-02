@@ -5,40 +5,40 @@
     - the container seems to be responsive could cause issues in regards to its items
     - 
     -
-- solved issues:  the ressignment issue cause logic problems seems fixed
+- solved issues:  the reassignment issue cause logic problems seems fixed
 
 
 const container ->
     - should be display type flex
-    - shold wrap items in container
+    - should wrap items in container
     - flex stretch
-    - shouldnt allow overflow
+    - should not allow overflow
     - remove container and create a new one every time container is cleared
 
 const input ->
     - min value is one
     - max value is 100
-    - disable functionailty once 100 items are reached
+    - disable functionality once 100 items are reached
     - will use a if else statement to check for amount of items
-    - shoud'nt allow string values or symbols
+    - shouldn't allow string values or symbols
     - should add up when a number is inputted
-    - add button for functionailty
+    - add button for functionality
 
 const items -> 
     - should stretch to fit container
-    - should take up a even amount of space in refernece to other items
+    - should take up a even amount of space in reference to other items
     - on hover color should be altered 
-    - item should shrink indefinitly
+    - item should shrink indefinitely
 
 const clear ->
     - basically restarts the program when cleared
 
  extra ->
--- within the body add others compants such as the label , input, and btn;
+-- within the body add others components such as the label , input, and btn;
 
 how would you incorporate the first constant?
     - create a physical div in the html (parent node)
-    - include fragment for better functionailty -- (dont understand this much yet)
+    - include fragment for better functionality -- (don't understand this much yet)
     - in css incorporate the proper styling such as flex , flex direction, height , width, and overflow(possibly?!)
     - in javascript assign a variable to the container using the dom
 
