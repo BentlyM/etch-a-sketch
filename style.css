@@ -9,20 +9,19 @@ body {
 
 #container {
     display: flex; 
+    flex-direction: row; 
     flex-wrap: wrap; 
-    max-width: 50%; 
+    width: 50%; 
     height: 50%; 
     border: 1px solid black;
 }
 
 .grid-item {
-    width: calc(10% - 10px); /* Adjust width as needed; 10 items per row with gap consideration */
-    height: 50px; /* Adjust height as needed */
-    background-color: lightgray;
+    
+    padding: 5px;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    flex: 1;
 }
 
 #rows {
