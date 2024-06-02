@@ -2,6 +2,9 @@
 
 - current issues: overflow once a certain amount of items are input;
 - possible issues: the reassigning after every click may cause problems with the logic (trying to find a way to record input values)
+    - 
+    -
+    -
 - solved issues: 
 
 
